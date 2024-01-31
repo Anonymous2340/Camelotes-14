@@ -1,0 +1,204 @@
+/*This is the design of the navigations.....*/
+.navigations {
+	background-color: white;
+	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+.navigations .icons-and-title {
+	float: left;
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	height: 50px;
+	margin: 20px;
+}
+
+.navigations .icons-and-title img {
+	width: 50px;
+	height: 50px;
+}
+
+.navigations .icons-and-title h1 {
+	color: darkblue;	
+	padding-left: 10px;
+}
+
+.navigations .icons-and-title p {
+	position: absolute;
+	top: 8%;
+	left: 5.96%;
+	color: darkblue;
+	font-size: 18px;
+}
+
+.navigations .navigations-opt {
+	display: flex;
+	width: auto;
+	height: 100px;
+}
+
+.navigations .navigations-opt 	.options {
+	list-style-type: none;
+	float: left;
+	margin: 50px 0 0 20px;
+}
+
+.navigations .navigations-opt .options li {
+	float: left;
+	position: relative;
+	padding-top: 10px;
+}
+
+.navigations .navigations-opt .options li:hover .dropdown {
+	display: block;
+}
+
+.navigations .navigations-opt .options li a {
+	display: block;
+	font-size: 18px;
+	color: darkblue;
+	text-decoration: none;
+	padding: 2px 10px;
+	margin: 0 10px;
+	border-radius: 15px;
+} 
+
+.navigations .navigations-opt .options li a:hover {
+	background-color: darkblue;
+	color: white;
+} 
+
+.navigations .navigations-opt .options li a ion-icon {
+	font-size: 13px;
+	padding-left: 2px;
+	color: white;
+} 
+
+.navigations .navigations-opt .options li .dropdown {
+	position: absolute;
+	display: none;
+	width: 160px;
+	margin: 0 5px;
+	background-color: white;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;;
+}
+
+.navigations .navigations-opt .options li .dropdown li {
+	width: auto;
+	height: 40px;
+	padding: 0;
+}
+
+.navigations .navigations-opt .options li .dropdown li a {
+	width: auto;
+	height: 40px;
+	padding: 4px 10px;
+	margin: 0;
+}
+/*This is the deign of the main container for emojis....*/
+.main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	padding: 40px 30px;
+}
+
+.main h1 {
+	font-size: 50px;
+}
+
+.main p {
+	font-size: 22px;
+}
+
+.main h2 {
+	font-size: 33px;
+}
+
+.main #code {
+	color: blue;
+    font-size: 20px;
+	background-color: wheat;
+	padding: 30px;
+}
+
+.main ul {
+	font-size: 22px;
+}
+
+.main .code-editor {
+	width: 50%;
+	height: auto;
+	padding: 50px 30px;
+	background-color: rgb(3, 3, 53);
+	border-radius: 10px;
+}
+
+.main .list-of-emojis {
+	list-style-type: none;
+}
+
+.main .list-of-emojis .emoji {
+	float: left;
+	font-size: 50px;
+	padding: 20px;
+	margin: 30px;
+	border-radius: 20px;
+}
+
+.main .list-of-emojis .emoji:hover {
+	font-size: 50px;
+	padding: 20px;
+	margin: 30px;
+	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;;
+}
+
+
+/*This is the design of the footer....*/
+.footer {
+	display: flex;
+	width: 100%;
+	height: 210px;
+	border-top: 1px solid grey;
+	margin: 0 20px;
+}
+
+.footer #unknown {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	margin: 30px 5px 10px 50px;
+}
+
+.footer .profile {
+	width: 300px;
+	height: 210px;
+	padding: 20px 3px 0 10px;
+}
+
+.footer .profile h1 {
+	color: rgb(4, 4, 85);
+}
+
+.footer .social-media {
+	width: auto;
+	height: 80px;
+}
+
+.footer .social-media img {
+	width: 40px;
+	height: 40px;
+	border: none;
+	border-radius: none;
+	float: left;
+	margin: 40px 7px;
+	cursor: pointer;
+}
